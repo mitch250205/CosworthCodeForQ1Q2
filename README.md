@@ -26,13 +26,10 @@ pytest will run 1035 parameterised test cases in 103 sec
 pytest -v -s test_cosworth_1.py -m "priorities" will execute all the tests with “priorities” as a mark
 
 cd ../data/timing_maps/204-07-11_16-11/ to view the maps
-![image](https://github.com/user-attachments/assets/996c14a1-54b5-485f-881a-b26e27b5fa6b)
-
 
 2. Python Regular expression:
 
 Given a certain log output produce a single python script or pseudo code which uses regex to extract the OS Version,
-   to help, this text has been highlighted, but within the context of this application it will be a plain ASCII string. Please specify the regex system utilised, i.e. python, .NET![image](https://github.com/user-attachments/assets/cbf7daed-a7a5-4f41-be48-cf83d6e2fc53)
 
 check_linux_os -> check_os_version.py … This code accepts a string to search like “OS Version” and the name of a log to search within.
 data-> linux_logs … this directory contains two logs one with the OS Version and another without.
