@@ -1,11 +1,12 @@
 There are two programming tasks included in this repository.
 1. Generate a timing map
-   code architecture:
+
+Code architecture:
+
 create_map-> create_cosworth_timing_map.py … This code creates the mapping tables.
-data -> timing_maps -> /2024-07-11_10/command_line_timing_map_0_ms.txt
-This is where the timing maps are saved. For example this is a timing map of 0ms saved in a directory which is the execution time. This map was created from the command line and not test automation.
-scripts-> question_1 -> test_create_map:
-test_cosworth_1.py … Contains all the parameterised pytest test cases.  
+data -> timing_maps -> /2024-07-11_10/command_line_timing_map_0_ms.txt This is where the timing maps are saved.
+            For example this is a timing map of 0ms saved in a directory which is the execution time. This map was created from the command line and not test automation.
+scripts-> question_1 -> test_create_map->test_cosworth_1.py  Contains all the parameterised pytest test cases.  
 conftest.py … some fixtures for set up of all pytest test cases, creates the log directory before pytests are executed.
 pytest.ini … initialising the custom markers.
 
