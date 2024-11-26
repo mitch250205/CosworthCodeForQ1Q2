@@ -1,0 +1,33 @@
+U-Boot SPL 2013.01.01 (Jan 15 2020 - 13:54:22)
+BOARD : Altera SOCFPGA Cyclone V Board
+CLOCK: EOSC1 clock 25000 KHz
+CLOCK: EOSC2 clock 25000 KHz
+CLOCK: F2S_SDR_REF clock 0 KHz
+CLOCK: F2S_PER_REF clock 0 KHz
+CLOCK: MPU clock 800 MHz
+CLOCK: DDR clock 400 MHz
+CLOCK: UART clock 100000 KHz
+CLOCK: MMC clock 488 KHz
+CLOCK: QSPI clock 400000 KHz
+SDRAM: Initializing MMR registers
+SDRAM: Calibrating PHY
+SEQ.C: Preparing to start memory calibration
+SEQ.C: CALIBRATION PASSED
+SDRAM: 1024 MiB
+SF: Read data capture delay calibrated to 3 (0 - 6)
+SF: Detected N25Q512 with page size 65536, total: 67108864
+
+Booting
+DEBUG - BOOT IMAGE 3
+
+CHP Runtime Monitor
+OS Veion          : kappa 6.2.0 (Release) Mar 15 2021
+Boot Version        : CHP Cortex-A9 Boot Loader 0.8
+Device              : Badenia 3xx
+Metafile            : Badenia 3@CUP992
+Version             : 12428.2.2
+Dated               : 09:42:12 Mon Aug 23 2021
+FPGA                : Badenia DBv4 v01_00_00
+Clock Time          : 15:44:23 Tue Jan 10 2023
+Last reset cause    : unknown hard reset 0x0
+Type Help for assistance
